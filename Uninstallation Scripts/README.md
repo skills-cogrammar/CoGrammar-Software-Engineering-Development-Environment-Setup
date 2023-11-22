@@ -1,6 +1,6 @@
 # CoGrammar Software Engineering Development Environment Uninstallation
 
-This repository provides scripts that set up your development environment for you. 
+This repository provides scripts that remove your development environment for you. 
 The operating systems we have provided for are:
 
 * macOS
@@ -45,23 +45,23 @@ Should you run into issues, please submit a query via your dashboard.
 #### macOS (Terminal)
 
 ```.sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/macos_se.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/Uninstallation Scripts/macos_se_delete.sh)"
 ```
 
 #### Windows (Powershell run as an Administrator)
 
 ```.ps1
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression (Invoke-WebRequest -URI "https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/windows_se.ps1" -UseBasicParsing).Content
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression (Invoke-WebRequest -URI "https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/Uninstallation Scripts/windows_se_delete.ps1" -UseBasicParsing).Content
 ```
 
 #### Fedora (Terminal)
 
 ```.sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/fedora_se.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/Uninstallation Scripts/fedora_se_delete.sh)"
 ```
 
 #### Ubuntu (Terminal)
 
 ```.sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/ubuntu_se.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/HyperionDevBootcamps/HyperionDev-Software-Engineering-Development-Environment-Setup-master/master/Uninstallation Scripts/ubuntu_se_delete.sh)"
 ```
