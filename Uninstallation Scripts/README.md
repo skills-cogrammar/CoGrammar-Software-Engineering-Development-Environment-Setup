@@ -1,4 +1,4 @@
-# CoGrammar Software Engineering Development Environment Setup
+# CoGrammar Software Engineering Development Environment Uninstallation
 
 This repository provides scripts that set up your development environment for you. 
 The operating systems we have provided for are:
